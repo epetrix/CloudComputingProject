@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Cloud</groupId>
+  <artifactId>Cloud</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>WordCount</name>
+  
+  <dependencies>
+                <!-- JDK Tools -->
+                <dependency>
+                        <groupId>jdk.tools</groupId>
+                        <artifactId>jdk.tools</artifactId>
+                        <scope>system</scope>
+                        <version>1.8.0_181</version>
+                        <systemPath>${java.home}/lib/plugin.jar</systemPath>
+                </dependency>
+                <!-- Hadoop Core -->
+                <dependency>
+                        <groupId>org.apache.hadoop</groupId>
+                        <artifactId>hadoop-core</artifactId>
+                        <version>1.2.1</version>
+                </dependency>
+                <!-- Hadoop Mapreduce Client Core -->
+                <dependency>
+                        <groupId>org.apache.hadoop</groupId>
+                        <artifactId>hadoop-mapreduce-client-core</artifactId>
+                        <version>2.7.1</version>
+                </dependency>
+                <dependency>
+      <groupId>com.google.apis</groupId>
+      <artifactId>google-api-services-dataproc</artifactId>
+      <version>v1-rev20200323-1.30.9</version>
+    </dependency>
+        </dependencies>
+  
+</project>
